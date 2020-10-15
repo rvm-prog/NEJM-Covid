@@ -5,8 +5,7 @@ We reproduced all plots in the paper by using the data provided using the R a la
 
 #### Conclusion
 In the final part of the paper the authors draw several conclusions with regards to the safety of the test, the obligations of manufacturers to provide details of the test in terms of clinical sensitivity and specificity, the problems with false negative results in the general population where pretest probability of disease is much lower than in the hospital environment and they stress the importance of defining thresholds for ruling out infection for a variety of clinical situations.
-However, they did not discuss the problems that arise with fals positive test results in the general population to get a complete picture of reality based on the data provided.
-In this R project we supply the additional data to get the complete picture.
+However, they do not discuss the problems that arise with fals positive test results in the general population. In this R project, we tried to complete the picture of reality based on the data provided.
 
 #### NEJM-Covid-master.zip
 
