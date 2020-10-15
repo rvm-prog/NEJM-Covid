@@ -7,9 +7,12 @@ We reproduced all plots in the paper by using the data provided using the R, a l
 In the final part of the paper the authors draw several conclusions with regards to the safety of the test, the obligations of manufacturers to provide details of the test in terms of clinical sensitivity and specificity, the problems with false negative results in the general population where pretest probability of disease is much lower than in the hospital environment and they stress the importance of defining thresholds for ruling out infection for a variety of clinical situations.
 However, they do not discuss the problems that arise with fals positive test results in the general population. In this R project, we tried to complete the picture of reality based on the data provided.
 
-#### NEJM-Covid-master.zip
+#### Download
+The R files and png files can be downloaded by pressing the **green Code button"** (right top of this window). Select **Download ZIP** at the bottom.Subsequently a zip file is downloaded which is called "NEJM-Covid master.zip
 
-In theNEJM-Covid-master.zip file, you will find 2 folders:  R-Code folder, PNG folder and a README.md file.
+
+#### NEJM-Covid-master.zip
+In the NEJM-Covid-master.zip file, you will find 2 folders:  R-Code folder, PNG folder and a README.md file.
 
 #### Create a new folder on your computer
 
