@@ -9,7 +9,7 @@ However, they do not discuss the problems that arise with fals positive test res
 
 #### NEJM-Covid-master.zip
 
-In theNEJM-Covid-master.zip file, you will find 1 folder:  R-Code folder and a README.md file.
+In theNEJM-Covid-master.zip file, you will find 2 folders:  R-Code folder, PNG folder and a README.md file.
 
 #### Create a new folder on your computer
 
