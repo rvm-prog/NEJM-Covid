@@ -8,15 +8,14 @@ In the final part of the paper the authors draw several conclusions with regards
 However, they do not discuss the problems that arise with fals positive test results in the general population. In this R project, we tried to complete the picture of reality based on the data provided.
 
 #### Download
-The R files and PNG files can be downloaded by pressing the **green Code button"** (right top of this window). Select **Download ZIP** at the bottom. Subsequently a zip file is downloaded which is called "NEJM-Covid master.zip
-
+The R files and PNG files can be downloaded by pressing the **green Code button"** (right top of this window). Select **Download ZIP** at the bottom. Subsequently a zip file is downloaded with all the files.
 
 #### NEJM-Covid-master.zip
-In the NEJM-Covid-master.zip file, you will find 2 folders:  R-Code folder, PNG folder and a README.md file.
+In the NEJM-Covid-master.zip file, you will R-Code, PNGs and a README.md file.
 
 #### Create a new folder on your computer
 
-Put the .r files in this new folder. Start your RStudio with a **new project in this folder** and you are done. In the right lower corner of your Rstudio openingspage you will find under the **Files** tab all .r files that you can import to your project.You also find the datasets used in this project.
+Put the .r files in this new folder. Start your RStudio with a **new project in this folder** and you are done. In the right lower corner of your Rstudio openingspage you will find under the **Files** tab all .r files that you can import to your project.
 
 
 
