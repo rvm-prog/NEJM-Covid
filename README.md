@@ -8,7 +8,7 @@ In the final part of the paper the authors draw several conclusions with regards
 However, they do not discuss the problems that arise with fals positive test results in the general population. In this R project, we tried to complete the picture of reality based on the data provided.
 
 #### Download
-The R files and png files can be downloaded by pressing the **green Code button"** (right top of this window). Select **Download ZIP** at the bottom.Subsequently a zip file is downloaded which is called "NEJM-Covid master.zip
+The R files and PNG files can be downloaded by pressing the **green Code button"** (right top of this window). Select **Download ZIP** at the bottom. Subsequently a zip file is downloaded which is called "NEJM-Covid master.zip
 
 
 #### NEJM-Covid-master.zip
