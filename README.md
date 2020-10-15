@@ -11,7 +11,7 @@ However, they do not discuss the problems that arise with fals positive test res
 The R files and PNG files can be downloaded by pressing the **green Code button"** (right top of this window). Select **Download ZIP** at the bottom. Subsequently a zip file is downloaded with all the files.
 
 #### NEJM-Covid-master.zip
-In the NEJM-Covid-master.zip file, you will R-Code, PNGs and a README.md file.
+In the NEJM-Covid-master.zip file, you will find the R-Code examples, plots and a README.md file.
 
 #### Create a new folder on your computer
 
