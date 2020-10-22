@@ -48,8 +48,8 @@ server <- function(input, output) {
         # combine results to tbl
         tibble(
             perc_sick = rep(perc_sick, 4),
-            test_res = rep(c("False", "True", "False", "True"), each=n_obs),
-            test_acc = rep(c("Negative Test Result", "Positive Test Result"), each=n_obs*2),
+            test_acc = rep(c("False", "True", "False", "True"), each=n_obs),
+            test_res = rep(c("Negative Test Result", "Positive Test Result"), each=n_obs*2),
             pv = c(FNPV, TNPV, FPPV, TPPV)
         )
     })
