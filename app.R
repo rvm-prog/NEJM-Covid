@@ -7,15 +7,16 @@ theme_set(theme_bw() + theme(legend.position = "bottom", text = element_text(siz
 colours <- c("#E69F00", "#009E73")
 
 ui <- fluidPage(
-    titlePanel("Predictive Values"),
+    titlePanel("Predictive Values in COVID-19 Testing"),
     
-    sidebarLayout(
-        sidebarPanel(
-            sliderInput("spec", "Specificity:", min = 0, max = 100, value = 95, step = 1, post = "%"),
-            sliderInput("sens", "Sensitivity:", min = 0, max = 100, value = 70, step = 1, post = "%")
-        ),
-        mainPanel(
-           plotOutput("res_plot")
+    plotOutput("res_plot", height=600),
+    
+    HTML("<br></br>"),
+    
+    wellPanel(
+        fluidRow(
+            column(6, sliderInput("spec", "Specificity:", min = 0, max = 100, value = 95, step = 1, post = "%")),
+            column(6, sliderInput("sens", "Sensitivity:", min = 0, max = 100, value = 70, step = 1, post = "%"))
         )
     )
 )
