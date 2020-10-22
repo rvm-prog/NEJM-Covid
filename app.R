@@ -28,7 +28,7 @@ server <- function(input, output) {
         n_obs <- length(prev)
         # percentage sick and not sick
         perc_sick <- prev * 100
-        # perc_notsick <- 100 - perc_sick
+        perc_notsick <- 100 - perc_sick
         # true positives
         TP <- perc_sick * (input$sens / 100)
         # true negatives
