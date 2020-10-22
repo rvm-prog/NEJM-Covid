@@ -86,6 +86,7 @@ ds
 # alltogehter
 
 
+
 op <- par(mfrow = c(1, 2), pty = "s")   
 # FNPV and TNPV
 
