@@ -79,9 +79,9 @@ server <- function(input, output) {
         # generate the relevant ggplot and make plotly object
         if (input$ind_points) {
             plt <- ggplotly(
-                ggplot(res_tbl(), aes(perc_sick, pv, colour=test_acc)) +
+                ggplot(filter(res_tbl(), is_example), aes(perc_sick, pv, colour=test_acc)) +
                     geom_line(size = 1.5, alpha = 0.2) +
-                    geom_point(aes(text=plt_text), data=filter(res_tbl(), is_example), size=2)  +
+                    geom_point(aes(text=plt_text), size=2)  +
                     facet_wrap(vars(test_res)) +
                     labs(x = NULL, y = NULL, colour = NULL) +
                     scale_colour_manual(values=colours),
