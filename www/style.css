@@ -1,0 +1,9 @@
+#input-inline label{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+} 
+
+#input-inline .form-group {
+  display: table-row;
+}
