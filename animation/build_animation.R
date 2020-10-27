@@ -68,6 +68,7 @@ plt_vals_frame <- function(res_tbl) {
     distinct() %>%
     pivot_longer(cols = c(sens, spec), names_to = "Variable", values_to = "Value") %>%
     mutate(Variable = if_else(Variable=="sens", "Sensitivity", "Specificity")) %>%
+    mutate(Variable = factor(Variable, levels=c("Specificity", "Sensitivity"))) %>%
     ggplot(aes(Variable, Value)) +
     geom_col(colour = "black") +
     ylim(c(0, 100)) +
