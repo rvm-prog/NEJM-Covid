@@ -14,15 +14,8 @@ The animation below presents the relationship between a test's sensitivity and s
 
 The shiny app in `app.R` presents an interactive graph which lets you explore this relationship in more detail.
 
-#### Download
-The R files and PNG files can be downloaded by pressing the **green Code button"** (right top of this window). Select **Download ZIP** at the bottom. Subsequently a zip file is downloaded with all the files.
+#### Running the Shiny App
 
-#### NEJM-Covid-master.zip
-In the NEJM-Covid-master.zip file, you will find the R-Code examples, plots and a README.md file.
+The Shiny app is hosted online at: http://shiny.ieis.tue.nl/mechelen/
 
-#### Create a new folder on your computer
-
-Put the .r files in this new folder. Start your RStudio with a **new project in this folder** and you are done. In the right lower corner of your Rstudio openingspage you will find under the **Files** tab all .r files that you can import to your project.
-
-
-
+You can run the app locally by downloading the repository and running `app.R`.
