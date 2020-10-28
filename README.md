@@ -9,6 +9,7 @@ In the final part of the paper the authors draw several conclusions with regards
 However, they do not discuss the problems that arise with false positive test results in the general population. In this R project, we tried to complete the picture of reality based on the data provided.
 
 The animation below presents the relationship between a test's sensitivity and specificity on the predictive values of positive and negative test results:
+
 ![](animation/animation.gif)
 
 #### Download
