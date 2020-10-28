@@ -23,7 +23,9 @@ ui <- fluidPage(
                 column(12, sliderInput("spec", "Specificity:", min = 0, max = 100, value = 95, step = 1, post = "%")),
                 column(12, HTML("<h4>Plot Options</h4>")),
                 column(6, checkboxInput("ind_points", "Show example points")),
-                column(6, uiOutput("ui_point_freq"))
+                column(6, uiOutput("ui_point_freq")),
+                column(12, HTML("<br></br>")),
+                column(12, span(tagList(icon("github"), tags$a(href = "https://github.com/JackEdTaylor/NEJM-Covid", "GitHub Repository"))))
             )
         ),
         mainPanel = mainPanel(
