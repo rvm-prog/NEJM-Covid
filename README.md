@@ -16,6 +16,6 @@ The shiny app in `app.R` presents an interactive graph which lets you explore th
 
 #### Running the Shiny App
 
-The Shiny app is hosted online at: http://shiny.ieis.tue.nl/mechelen/
+The Shiny app is hosted online at: http://shiny.ieis.tue.nl/COVID19_FPFN/
 
 You can run the app locally by downloading the repository and running `app.R`.
