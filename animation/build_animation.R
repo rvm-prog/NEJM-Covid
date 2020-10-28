@@ -88,7 +88,7 @@ get_anim_tbl <- function(sens = c(90, 1), spec = c(95, 95)) {
     mutate(frame_nr = factor(frame_nr))
 }
 
-build_anim <- function(sens_vals, spec_vals, file, nframes=300, fps=10, w=750, h=600, ind_points=FALSE) {
+build_anim <- function(sens_vals, spec_vals, file, nframes=300, fps=10, w=1000, h=900, res=125, ind_points=FALSE) {
   if (length(sens_vals) != length(spec_vals)) stop("Inconsistent vector lengths!")
   
   cat(sprintf("Getting data\n"))
@@ -99,14 +99,14 @@ build_anim <- function(sens_vals, spec_vals, file, nframes=300, fps=10, w=750, h
     plt_frame(ind_points = ind_points) +
     transition_manual(frame_nr)
   
-  lines_frames <- animate(lines_anim, nframes=nframes, fps=fps, duration=nframes/fps, detail=1, width=w, height=h*4/5, device="png", type = "cairo", renderer=file_renderer(file.path("animation", "lines"), overwrite = TRUE))
+  lines_frames <- animate(lines_anim, nframes=nframes, fps=fps, duration=nframes/fps, detail=1, width=w, height=h*4/5, res=res, device="png", type = "cairo", renderer=file_renderer(file.path("animation", "lines"), overwrite = TRUE))
   
   cat(sprintf("Animating values\n"))
   vals_anim <- anim_tbl %>%
     plt_vals_frame() +
     transition_manual(frame_nr)
   
-  vals_frames <- animate(vals_anim, nframes=nframes, fps=fps, duration=nframes/fps, detail=1, width=w, height=h*1/5, device="png", type = "cairo", renderer=file_renderer(file.path("animation", "vals"), overwrite = TRUE))
+  vals_frames <- animate(vals_anim, nframes=nframes, fps=fps, duration=nframes/fps, detail=1, width=w, height=h*1/5, res=res, device="png", type = "cairo", renderer=file_renderer(file.path("animation", "vals"), overwrite = TRUE))
   
   cat(sprintf("Generating stacked animation\n"))
   stacked_gif <- image_append(c(image_read(lines_frames[1]), image_read(vals_frames[1])), stack=TRUE)
